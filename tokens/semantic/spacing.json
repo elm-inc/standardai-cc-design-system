@@ -1,0 +1,30 @@
+{
+  "space": {
+    "inset": {
+      "xs": { "$type": "dimension", "$value": "{spacing.1}" },
+      "sm": { "$type": "dimension", "$value": "{spacing.2}" },
+      "md": { "$type": "dimension", "$value": "{spacing.4}" },
+      "lg": { "$type": "dimension", "$value": "{spacing.6}" },
+      "xl": { "$type": "dimension", "$value": "{spacing.8}" }
+    },
+    "stack": {
+      "xs": { "$type": "dimension", "$value": "{spacing.1}" },
+      "sm": { "$type": "dimension", "$value": "{spacing.2}" },
+      "md": { "$type": "dimension", "$value": "{spacing.4}" },
+      "lg": { "$type": "dimension", "$value": "{spacing.6}" },
+      "xl": { "$type": "dimension", "$value": "{spacing.8}" }
+    },
+    "inline": {
+      "xs": { "$type": "dimension", "$value": "{spacing.1}" },
+      "sm": { "$type": "dimension", "$value": "{spacing.2}" },
+      "md": { "$type": "dimension", "$value": "{spacing.4}" }
+    },
+    "gap": {
+      "xs": { "$type": "dimension", "$value": "{spacing.1}" },
+      "sm": { "$type": "dimension", "$value": "{spacing.2}" },
+      "md": { "$type": "dimension", "$value": "{spacing.4}" },
+      "lg": { "$type": "dimension", "$value": "{spacing.6}" },
+      "xl": { "$type": "dimension", "$value": "{spacing.8}" }
+    }
+  }
+}

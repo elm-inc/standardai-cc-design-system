@@ -1,0 +1,24 @@
+{
+  "elevation": {
+    "surface": {
+      "$type": "shadow",
+      "$value": { "offsetX": "0px", "offsetY": "0px", "blur": "0px", "spread": "0px", "color": "rgba(0, 0, 0, 0)" }
+    },
+    "raised": {
+      "$type": "shadow",
+      "$value": "{shadow.xs}"
+    },
+    "overlay": {
+      "$type": "shadow",
+      "$value": "{shadow.md}"
+    },
+    "modal": {
+      "$type": "shadow",
+      "$value": "{shadow.lg}"
+    },
+    "toast": {
+      "$type": "shadow",
+      "$value": "{shadow.xl}"
+    }
+  }
+}

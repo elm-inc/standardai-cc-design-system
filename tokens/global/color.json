@@ -1,0 +1,89 @@
+{
+  "color": {
+    "brand": {
+      "$description": "Brand representative color based on #277DB7",
+      "50":  { "$type": "color", "$value": "#E8F4FB" },
+      "100": { "$type": "color", "$value": "#C5E2F4" },
+      "200": { "$type": "color", "$value": "#9DCAEB" },
+      "300": { "$type": "color", "$value": "#70B0E0" },
+      "400": { "$type": "color", "$value": "#4497D4" },
+      "500": { "$type": "color", "$value": "#277DB7" },
+      "600": { "$type": "color", "$value": "#1F6A9E" },
+      "700": { "$type": "color", "$value": "#185685" },
+      "800": { "$type": "color", "$value": "#11426B" },
+      "900": { "$type": "color", "$value": "#0B2F52" },
+      "950": { "$type": "color", "$value": "#071E36" }
+    },
+    "blue": {
+      "$description": "Primary action color based on #1677FF (Ant Design blue)",
+      "50":  { "$type": "color", "$value": "#E6F4FF" },
+      "100": { "$type": "color", "$value": "#BAE0FF" },
+      "200": { "$type": "color", "$value": "#91CAFF" },
+      "300": { "$type": "color", "$value": "#69B1FF" },
+      "400": { "$type": "color", "$value": "#4096FF" },
+      "500": { "$type": "color", "$value": "#1677FF" },
+      "600": { "$type": "color", "$value": "#0958D9" },
+      "700": { "$type": "color", "$value": "#003EB3" },
+      "800": { "$type": "color", "$value": "#002C8C" },
+      "900": { "$type": "color", "$value": "#001D66" },
+      "950": { "$type": "color", "$value": "#001144" }
+    },
+    "green": {
+      "$description": "Success color based on #73D13D (Ant Design green)",
+      "50":  { "$type": "color", "$value": "#F6FFED" },
+      "100": { "$type": "color", "$value": "#D9F7BE" },
+      "200": { "$type": "color", "$value": "#B7EB8F" },
+      "300": { "$type": "color", "$value": "#95DE64" },
+      "400": { "$type": "color", "$value": "#73D13D" },
+      "500": { "$type": "color", "$value": "#52C41A" },
+      "600": { "$type": "color", "$value": "#389E0D" },
+      "700": { "$type": "color", "$value": "#237804" },
+      "800": { "$type": "color", "$value": "#135200" },
+      "900": { "$type": "color", "$value": "#092B00" },
+      "950": { "$type": "color", "$value": "#051A00" }
+    },
+    "gold": {
+      "$description": "Warning color based on #FFA940 (Ant Design orange)",
+      "50":  { "$type": "color", "$value": "#FFF7E6" },
+      "100": { "$type": "color", "$value": "#FFE7BA" },
+      "200": { "$type": "color", "$value": "#FFD591" },
+      "300": { "$type": "color", "$value": "#FFC069" },
+      "400": { "$type": "color", "$value": "#FFA940" },
+      "500": { "$type": "color", "$value": "#FA8C16" },
+      "600": { "$type": "color", "$value": "#D46B08" },
+      "700": { "$type": "color", "$value": "#AD4E00" },
+      "800": { "$type": "color", "$value": "#873800" },
+      "900": { "$type": "color", "$value": "#612500" },
+      "950": { "$type": "color", "$value": "#3D1700" }
+    },
+    "red": {
+      "$description": "Danger/error color based on #FF4D4F (Ant Design red)",
+      "50":  { "$type": "color", "$value": "#FFF1F0" },
+      "100": { "$type": "color", "$value": "#FFCCC7" },
+      "200": { "$type": "color", "$value": "#FFA39E" },
+      "300": { "$type": "color", "$value": "#FF7875" },
+      "400": { "$type": "color", "$value": "#FF4D4F" },
+      "500": { "$type": "color", "$value": "#F5222D" },
+      "600": { "$type": "color", "$value": "#CF1322" },
+      "700": { "$type": "color", "$value": "#A8071A" },
+      "800": { "$type": "color", "$value": "#820014" },
+      "900": { "$type": "color", "$value": "#5C0011" },
+      "950": { "$type": "color", "$value": "#3A0009" }
+    },
+    "neutral": {
+      "$description": "Gray scale for text, backgrounds, and borders",
+      "0":   { "$type": "color", "$value": "#FFFFFF" },
+      "50":  { "$type": "color", "$value": "#FAFAFA" },
+      "100": { "$type": "color", "$value": "#F5F5F5" },
+      "200": { "$type": "color", "$value": "#F0F0F0" },
+      "300": { "$type": "color", "$value": "#D9D9D9" },
+      "400": { "$type": "color", "$value": "#BFBFBF" },
+      "500": { "$type": "color", "$value": "#8C8C8C" },
+      "600": { "$type": "color", "$value": "#595959" },
+      "700": { "$type": "color", "$value": "#434343" },
+      "800": { "$type": "color", "$value": "#262626" },
+      "900": { "$type": "color", "$value": "#1F1F1F" },
+      "950": { "$type": "color", "$value": "#141414" }
+    }
+  }
+}

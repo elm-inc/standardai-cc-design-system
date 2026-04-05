@@ -3,11 +3,14 @@ import { register } from '@tokens-studio/sd-transforms';
 
 register(StyleDictionary);
 
+const prefix = 'sai';
+
 const sd = new StyleDictionary({
-  source: ['tokens/**/*.json'],
+  source: ['tokens/global/**/*.json', 'tokens/semantic/**/*.json', 'tokens/component/**/*.json'],
   preprocessors: ['tokens-studio'],
   platforms: {
     css: {
+      prefix,
       transformGroup: 'tokens-studio',
       buildPath: 'src/tokens/',
       files: [
@@ -18,6 +21,7 @@ const sd = new StyleDictionary({
       ],
     },
     ts: {
+      prefix,
       transformGroup: 'tokens-studio',
       buildPath: 'src/tokens/',
       files: [
