@@ -1,0 +1,93 @@
+@import "tailwindcss";
+@import "../tokens/variables.css";
+
+@theme {
+  /* Brand */
+  --color-brand-50: #E8F4FB;
+  --color-brand-100: #C5E2F4;
+  --color-brand-200: #9DCAEB;
+  --color-brand-300: #70B0E0;
+  --color-brand-400: #4497D4;
+  --color-brand-500: #277DB7;
+  --color-brand-600: #1F6A9E;
+  --color-brand-700: #185685;
+  --color-brand-800: #11426B;
+  --color-brand-900: #0B2F52;
+  --color-brand-950: #071E36;
+
+  /* Blue (Primary Action) */
+  --color-blue-50: #E6F4FF;
+  --color-blue-100: #BAE0FF;
+  --color-blue-200: #91CAFF;
+  --color-blue-300: #69B1FF;
+  --color-blue-400: #4096FF;
+  --color-blue-500: #1677FF;
+  --color-blue-600: #0958D9;
+  --color-blue-700: #003EB3;
+  --color-blue-800: #002C8C;
+  --color-blue-900: #001D66;
+  --color-blue-950: #001144;
+
+  /* Green (Success) */
+  --color-green-50: #F6FFED;
+  --color-green-100: #D9F7BE;
+  --color-green-200: #B7EB8F;
+  --color-green-300: #95DE64;
+  --color-green-400: #73D13D;
+  --color-green-500: #52C41A;
+  --color-green-600: #389E0D;
+  --color-green-700: #237804;
+  --color-green-800: #135200;
+  --color-green-900: #092B00;
+  --color-green-950: #051A00;
+
+  /* Gold (Warning) */
+  --color-gold-50: #FFF7E6;
+  --color-gold-100: #FFE7BA;
+  --color-gold-200: #FFD591;
+  --color-gold-300: #FFC069;
+  --color-gold-400: #FFA940;
+  --color-gold-500: #FA8C16;
+  --color-gold-600: #D46B08;
+  --color-gold-700: #AD4E00;
+  --color-gold-800: #873800;
+  --color-gold-900: #612500;
+  --color-gold-950: #3D1700;
+
+  /* Red (Danger) */
+  --color-red-50: #FFF1F0;
+  --color-red-100: #FFCCC7;
+  --color-red-200: #FFA39E;
+  --color-red-300: #FF7875;
+  --color-red-400: #FF4D4F;
+  --color-red-500: #F5222D;
+  --color-red-600: #CF1322;
+  --color-red-700: #A8071A;
+  --color-red-800: #820014;
+  --color-red-900: #5C0011;
+  --color-red-950: #3A0009;
+
+  /* Neutral */
+  --color-neutral-0: #FFFFFF;
+  --color-neutral-50: #FAFAFA;
+  --color-neutral-100: #F5F5F5;
+  --color-neutral-200: #F0F0F0;
+  --color-neutral-300: #D9D9D9;
+  --color-neutral-400: #BFBFBF;
+  --color-neutral-500: #8C8C8C;
+  --color-neutral-600: #595959;
+  --color-neutral-700: #434343;
+  --color-neutral-800: #262626;
+  --color-neutral-900: #1F1F1F;
+  --color-neutral-950: #141414;
+
+  /* Font */
+  --font-sans: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-mono: 'JetBrains Mono', 'Fira Code', Consolas, monospace;
+}
+
+body {
+  font-family: var(--font-sans);
+  font-size: 14px;
+  color: var(--color-neutral-800);
+}
