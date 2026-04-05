@@ -1,0 +1,44 @@
+{
+  "name": "standardai-cc-design-system",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build",
+    "build:tokens": "node tokens/build.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elm-inc/standardai-cc-design-system.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/elm-inc/standardai-cc-design-system/issues"
+  },
+  "homepage": "https://github.com/elm-inc/standardai-cc-design-system#readme",
+  "devDependencies": {
+    "@chromatic-com/storybook": "^5.1.1",
+    "@storybook/addon-a11y": "^10.3.4",
+    "@storybook/addon-docs": "^10.3.4",
+    "@storybook/addon-onboarding": "^10.3.4",
+    "@storybook/addon-vitest": "^10.3.4",
+    "@storybook/react-vite": "^10.3.4",
+    "@tokens-studio/sd-transforms": "^2.0.3",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "@vitest/browser-playwright": "^4.1.2",
+    "@vitest/coverage-v8": "^4.1.2",
+    "playwright": "^1.59.1",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "storybook": "^10.3.4",
+    "style-dictionary": "^5.4.0",
+    "typescript": "^6.0.2",
+    "vitest": "^4.1.2"
+  }
+}
